@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clima Vertical</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Clima por Coordenadas</h1>
+  
+  <!-- Contenedor con flexbox para disposición vertical -->
+  <div class="container">
+    <input type="text" id="citylat" placeholder="Latitud">
+    <input type="text" id="citylon" placeholder="Longitud">
+    <button onclick="getWeather()">Obtener Clima</button>
+  </div>
+
+  <div id="weatherInfo">
+    <!-- Aquí es donde se mostrará la información del clima -->
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
